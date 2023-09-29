@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Registration form</h1>
+    <div class="container">
+        <div class="box1">
+            <form>
+            <label>First Name: </label><br>
+                <input type="text" size="60" name="firstname" id="firstname"><br>
+                <label>Last Name: </label><br>
+                <input type="text" size="60" name="lastname" id="lastname"><br>
+                <label>E-mail Address: </label><br>
+                <input type="text" size="60" name="email" id="email"><br>
+                <label>Mobile no: </label><br>
+                <input type="text" size="60" name="mobile" id="mobile"><br>
+                <label>City</label><br>
+                <input type="text" size="60" name="city" id="city"><br>
+                <label>Country</label><br>
+                <input type="text" size="60" name="Country" id="Country"><br>
+               <label>Gender</label><br>
+                &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender" id="male">
+                &nbsp;
+                <span id="male">Male</span>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gender" id="Female"> 
+                &nbsp;
+                <span id="female">Female </span><br><br>
+
+                <button type="button" onclick="run()">Submit</button>
+            </form>
+        </div>
+
+        <div class="box2" id="output">
+            <div>
+                <h2>Entries</h2>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
